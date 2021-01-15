@@ -1,0 +1,238 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "signer",
+						"type": "address"
+					},
+					{
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifySignature",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "verifyApproval",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_v",
+						"type": "uint8"
+					},
+					{
+						"name": "_r",
+						"type": "bytes32"
+					},
+					{
+						"name": "_s",
+						"type": "bytes32"
+					},
+					{
+						"name": "_signer",
+						"type": "address"
+					},
+					{
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"name": "_valueA",
+						"type": "uint256"
+					},
+					{
+						"name": "_valueB",
+						"type": "uint256"
+					},
+					{
+						"name": "_expiration",
+						"type": "uint256"
+					}
+				],
+				"name": "claim",
+				"outputs": [
+					{
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "verifyBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "claimed",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "signer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "taker",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "tokenB",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "valueA",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "valueB",
+						"type": "uint256"
+					}
+				],
+				"name": "LogClaim",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/Contracts/LimitOrder.sol": "p2pExchange"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/Contracts/LimitOrder.sol": {
+			"keccak256": "0x5d017d3605e190954ebaa1cc1affd76e975f5e7301cc74887214343fd4e9f136",
+			"urls": [
+				"bzzr://bc8f71048c16b2b22c9964ccd2590e6fc88907195eab290023e3ba78f6a72f8f"
+			]
+		}
+	},
+	"version": 1
+}

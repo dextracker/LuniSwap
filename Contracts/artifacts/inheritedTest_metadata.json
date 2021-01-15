@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.7.3+commit.9bfce1f6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/Contracts/testConstructor.sol": "inheritedTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/Contracts/testConstructor.sol": {
+			"keccak256": "0x8d3eff9e328a6bbe73bdb6f93cdac312c2cbd927cf7a26c66ba01f96da9b6b1c",
+			"urls": [
+				"bzz-raw://ba43fe00566d562787dd497999206b9cf4cadb25f48077c3b64bb02c2b9fcfb0",
+				"dweb:/ipfs/QmRa4H1kXcDAmDJrdfxNPihjgpuJP3PLb4maJRxyo3R1bn"
+			]
+		}
+	},
+	"version": 1
+}

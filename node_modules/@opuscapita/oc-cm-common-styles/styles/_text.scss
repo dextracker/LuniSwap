@@ -1,0 +1,41 @@
+@import 'variables';
+
+.oc-ui-font-light {
+    font-weight: $oc-font-weight-light;
+}
+
+.oc-ui-font-normal {
+    font-weight: $oc-font-weight-normal;
+}
+
+.oc-ui-font-bold {
+    font-weight: $oc-font-weight-bold;
+}
+
+h1 {
+    font-size: $oc-font-size-h1;
+}
+
+h2 {
+    font-size: $oc-font-size-h2;
+}
+
+h3 {
+    font-size: $oc-font-size-h3;
+}
+
+.oc-ui-font-large {
+    font-size: $oc-font-size-large;
+}
+
+.oc-ui-font-medium {
+    font-size: $oc-font-size-medium;
+}
+
+.oc-ui-font-normal {
+    font-size: $oc-font-size-normal;
+}
+
+.oc-ui-font-small {
+    font-size: $oc-font-size-small;
+}
